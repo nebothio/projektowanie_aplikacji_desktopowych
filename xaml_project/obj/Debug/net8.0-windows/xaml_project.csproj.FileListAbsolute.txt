@@ -1,0 +1,2 @@
+C:\Users\Egzamin\source\repos\projektowanie_aplikacji_desktopowych\xaml_project\xaml_project\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Egzamin\source\repos\projektowanie_aplikacji_desktopowych\xaml_project\xaml_project\obj\Debug\net8.0-windows\xaml_project_MarkupCompile.cache
