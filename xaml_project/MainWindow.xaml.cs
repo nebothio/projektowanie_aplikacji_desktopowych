@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,16 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace xaml_project
+namespace WpfApp3
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string VLogin { get; set; }
+        public string VPassword { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this;
+        }
+        private void Btn_Login(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Twój Login to: " + this.VLogin);
         }
     }
 }
